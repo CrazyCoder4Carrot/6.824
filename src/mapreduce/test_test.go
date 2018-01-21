@@ -14,8 +14,7 @@ import (
 )
 
 const (
-	//nNumber = 100000
-	nNumber = 10
+	nNumber = 100000
 	nMap    = 20
 	nReduce = 10
 )
