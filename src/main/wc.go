@@ -36,7 +36,7 @@ func mapF(filename string, contents string) (res []mapreduce.KeyValue) {
 func reduceF(key string, values []string) string {
 	// TODO: you also have to write this function
 	res := 0
-	for _, v:= range values{
+	for _, v := range values{
 		cnt, err := strconv.Atoi(v)
 		if err != nil{
 			panic(err)
